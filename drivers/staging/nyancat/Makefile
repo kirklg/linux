@@ -1,1 +1,1 @@
-obj-m			+=nyan_cat.o
+obj-m			+= nyan_cat.o
