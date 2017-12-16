@@ -74,7 +74,7 @@ static ssize_t nyan_cat_read(struct file *filep, char *buffer, size_t len, loff_
    error_count = copy_to_user(buffer, message, strlen(message));
 
    if (error_count == 0) {
-      printk(KERN_INFO "nyan_cat: Sent %lu characters to the user\n", strlen(message));
+      printk(KERN_INFO "nyan_cat: Sent %u characters to the user\n", strlen(message));
       return strlen(message);
    } else {
       printk(KERN_INFO "nyan_cat: Failed to send %d characters to the user\n", error_count);
