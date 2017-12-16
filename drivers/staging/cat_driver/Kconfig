@@ -1,0 +1,8 @@
+comment "NYAN_CAT DRIVER (/dev/cat)"
+
+config NYAN_CAT_DRIVER
+	tristate "Streaming /dev/cat driver"
+	depends on STAGING
+	help
+	  To compile this driver as a module, choose M here. The module will
+	  be called nyan_cat. If unsure, say N.
