@@ -88,5 +88,5 @@ static int nyan_cat_release(struct inode *inodep, struct file *filep)
    return 0;
 }
 
-module_init(cat_init);
-module_exit(cat_exit);
+module_init(nyan_cat_init);
+module_exit(nyan_cat_exit);
