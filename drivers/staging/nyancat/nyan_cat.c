@@ -2,6 +2,7 @@
  * Streaming /dev/cat driver
  *
  * Author: Kirk Leon Guerrero <kirk.leonguerrero@gmail.com>
+ * Author: Jesse Yen <jvy1106@gmail.com>
  * Copyright (C) 2017 Kirk Leon Guerrero
  *
  * This program is free software; you can redistribute  it and/or modify it
